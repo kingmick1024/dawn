@@ -51,8 +51,6 @@ echo "相对路径为: $relative_path"
 # 创建 chromium 目录并进入
 mkdir -p $HOME/chromium
 cd $HOME/chromium
-echo "已进入 chromium 目录"
-
 # 获取用户输入
 read -p "请输入 CUSTOM_USER: " CUSTOM_USER
 read -sp "请输入 PASSWORD: " PASSWORD
